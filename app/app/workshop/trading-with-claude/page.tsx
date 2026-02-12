@@ -15,8 +15,8 @@ export default async function WorkshopPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center space-x-4">
-              <Link href="/dashboard" className="text-blue-400 hover:text-blue-300">← Back to Dashboard</Link>
-              <h1 className="text-xl font-bold text-white">Trading with Claude Workshop</h1>
+              <Link href="/dashboard" className="text-blue-400 hover:text-blue-300">← Back to Lab</Link>
+              <h1 className="text-xl font-bold text-white">MP Diamonds + Claude Workshop</h1>
             </div>
           </div>
         </div>
@@ -27,20 +27,20 @@ export default async function WorkshopPage() {
           
           {/* Introduction */}
           <div className="mb-8">
-            <h2 className="text-3xl font-bold text-white mb-4">Learn AI-Powered Trading Workflows</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">MP Diamonds + Claude Desktop Projects</h2>
             <p className="text-gray-300 text-lg">
-              Discover how Don uses Claude Desktop Projects, databases, and automation 
-              to manage his Diamond Money Press trading workflow.
+              Learn my complete methodology for using Claude Desktop Projects to enhance 
+              the MP Diamonds strategy with AI-assisted analysis and strategy refinement.
             </p>
           </div>
 
-          {/* Important Disclaimer */}
-          <div className="mb-8 p-4 bg-yellow-900 border border-yellow-600 rounded-lg">
-            <h3 className="text-yellow-200 font-semibold mb-2">Important Disclaimer</h3>
-            <p className="text-yellow-100 text-sm">
-              This content reflects Don Shults' personal experience applying AI tools to trading.
-              As a brand-new Diamonds trader, information may differ from Alex Rodriguez's official teaching.
-              Always defer to Alex's guidance. Not affiliated with Traders Edge Network.
+          {/* Lab Note */}
+          <div className="mb-8 p-4 bg-blue-900 border border-blue-600 rounded-lg">
+            <h3 className="text-blue-200 font-semibold mb-2">🔬 Lab Note</h3>
+            <p className="text-blue-100 text-sm">
+              This represents my personal experiments with AI-assisted trading using the MP Diamonds methodology. 
+              These are real techniques from my actual trading sessions, shared to help others integrate 
+              AI tools effectively into their own strategies.
             </p>
           </div>
 

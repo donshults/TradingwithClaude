@@ -5,11 +5,17 @@ export default function Home() {
     <div className="min-h-screen bg-gray-900 flex items-center justify-center">
       <div className="max-w-md w-full space-y-8 p-8">
         <div className="text-center">
+          <div className="mb-4">
+            <span className="text-6xl">🔬</span>
+          </div>
           <h1 className="text-4xl font-bold text-white mb-2">
-            Diamonds MP Community
+            Don's Trading Lab
           </h1>
+          <p className="text-lg font-medium text-blue-400 mb-4">
+            Real Trader. Real AI. Real Results.
+          </p>
           <p className="text-gray-400 mb-8">
-            Learn how to use AI tools for Diamond Money Press trading
+            Where I experiment with AI-assisted trading strategies using Claude Desktop Projects to enhance my trading edge.
           </p>
           <div className="space-y-4">
             <Link
@@ -26,10 +32,10 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-8 p-4 bg-gray-800 rounded-lg text-sm text-gray-300">
-            <p className="font-semibold mb-2">Important Disclaimer:</p>
+            <p className="font-semibold mb-2">About Don's Trading Lab:</p>
             <p>
-              This platform is independently operated by Don Shults. 
-              Not affiliated with Traders Edge Network or Alex Rodriguez.
+              My personal laboratory where I share the exact AI methodologies I use in my trading. 
+              Learn from real experience, not theory.
             </p>
           </div>
         </div>

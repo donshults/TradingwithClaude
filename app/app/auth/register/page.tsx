@@ -20,11 +20,10 @@ export default function RegisterPage() {
         </div>
 
         <div className="mt-6 p-4 bg-gray-800 rounded-lg text-sm text-gray-300">
-          <p className="font-semibold mb-2">Important Disclaimer:</p>
+          <p className="font-semibold mb-2">🔬 About Don's Trading Lab:</p>
           <p>
-            This platform is independently operated by Don Shults. 
-            Not affiliated with Traders Edge Network or Alex Rodriguez.
-            Content reflects personal AI tool experience.
+            My personal laboratory for experimenting with AI-assisted trading methodologies. 
+            Learn from real trading experience using Claude Desktop Projects.
           </p>
         </div>
 
