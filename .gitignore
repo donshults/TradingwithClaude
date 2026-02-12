@@ -1,2 +1,16 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Media
 *.mp4
+
+# MCP config (contains secrets)
 .mcp.json
