@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "context-vault": {
+      "command": "/home/callteksupport/mcp-servers/context-vault/.venv/bin/python3",
+      "args": ["/home/callteksupport/mcp-servers/context-vault/server.py"],
+      "env": {
+        "VAULT_API_URL": "https://context-vault.callteksupport.net",
+        "VAULT_API_KEY": "f1b87fa5350bb7d51af0097e7434770cac25bed3d1da142da0192647eafb1a88",
+        "VAULT_DEFAULT_OWNER": "don",
+        "VAULT_DEFAULT_WORKSPACE": "trading_with_claude",
+        "VAULT_SOURCE_TOOL": "claude_code",
+        "VAULT_SOURCE_MACHINE": "DonShults-AI"
+      }
+    }
+  }
+}
